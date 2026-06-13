@@ -19,6 +19,12 @@ A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in P
 
 ---
 
+<p align="center" width="100%">
+<video src="https://github.com/user-attachments/assets/a839d9fa-26ee-4472-887d-94d3a06466d0" width="80%" controls></video>
+</p>
+
+---
+
 ## Dependencies
 
 - [Processing 4](https://processing.org/) with the **P3D** renderer
@@ -40,6 +46,10 @@ A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in P
 2. Connect the phone to the same local network as the machine running the sketch.
 3. Point the app at the IP and port printed in the console.
 4. Enable **PhoneInput** via the toggle button in the UI. The container will respond to gyroscope rotation.
+
+---
+
+![Application](Images/PhoneUse.png)
 
 ---
 
