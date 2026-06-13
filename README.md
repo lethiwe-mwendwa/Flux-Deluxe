@@ -26,7 +26,7 @@ A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in P
 ## Running the Sketch
 
 1. Open the sketch folder in the Processing IDE.
-2. Ensure the UDP and UI libraries are installed under your Processing `libraries/` directory.
+2. Ensure the UDP library is installed in your Processing IDE.
 3. Press **Run**. The console will print the machine's local IP address and port (`6666`).
 4. Adjust parameters with the on-screen sliders and menus.
 
