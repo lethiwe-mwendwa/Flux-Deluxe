@@ -4,6 +4,10 @@ A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in P
 
 ---
 
+![Application](Images/FluxDeluxe.png)
+
+---
+
 ## Features
 
 - **SPH physics** - density, pressure (Tait equation of state), and viscosity forces computed per-step using the Poly6, Spiky, and viscosity kernels
