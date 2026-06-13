@@ -2,9 +2,13 @@
 
 A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in Processing. Particles are confined to a rotatable box boundary and respond to gravity, pressure, and viscosity forces. The simulation can be controlled interactively via keyboard, on-screen UI, or a phone's motion sensors over UDP.
 
+This project was awarded a **High First-Class grade** as part of final-year coursework, in recognition of its technical implementation of real-time SPH simulation, spatial optimisation, and interactive system design.
+
 ---
 
-![Application](Images/FluxDeluxe.png)
+<p align="center" width="100%">
+<video src="https://github.com/user-attachments/assets/a839d9fa-26ee-4472-887d-94d3a06466d0" width="80%" controls></video>
+</p>
 
 ---
 
@@ -16,12 +20,6 @@ A real-time 3D Smoothed Particle Hydrodynamics (SPH) fluid simulation built in P
 - **Phone input via UDP** - streams accelerometer, gyroscope, and gravity sensor data from an Android device over a local network using the *Serial Sensor* app (Amazon Appstore). Gyro data rotates the container; linear acceleration is separated from gravity for clean motion input
 - **Interactive UI** - sliders and menus for viscosity, gravity, smoothing length, wall friction, restitution, particle count (100–10 000), and boundary size (Small / Medium / Large / Default); Reset button reinitialises the simulation without restarting the sketch
 - **Speed-based particle colouring** - particles shade from blue (slow) → green → yellow → red (fast) using a three-segment lerp
-
----
-
-<p align="center" width="100%">
-<video src="https://github.com/user-attachments/assets/a839d9fa-26ee-4472-887d-94d3a06466d0" width="80%" controls></video>
-</p>
 
 ---
 
